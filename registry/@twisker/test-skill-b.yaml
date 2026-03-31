@@ -1,0 +1,12 @@
+type: skill
+name: test-skill-b
+description: "Another test skill - search target for keyword scraper"
+author: "@twisker"
+license: Apache-2.0
+tags: [test, scraper]
+risk_level: LOW
+
+agents:
+  claude-code:
+    plugin: "test-skill-b@twisker-test-plugins"
+    marketplace: "https://github.com/twisker/twisker-test-plugins"
