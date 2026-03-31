@@ -1,0 +1,30 @@
+skills:
+  test-skill-a:
+    owner: "@twisker"
+    type: skill
+    description: "A test skill for IpMan E2E validation"
+    agents: [claude-code, openclaw]
+    tags: [test, validation]
+    counter_issue: 1
+    installs: 42
+    unique_users: 7
+  test-skill-b:
+    owner: "@twisker"
+    type: skill
+    description: "Another test skill - search target for keyword scraper"
+    agents: [claude-code]
+    tags: [test, scraper]
+    counter_issue: 2
+    installs: 10
+    unique_users: 3
+
+packages:
+  test-package:
+    owner: "@twisker"
+    type: ip
+    latest: "1.0.0"
+    versions: ["1.0.0"]
+    description: "A test IP package with one skill dependency"
+    counter_issue: 3
+    installs: 5
+    unique_users: 2
