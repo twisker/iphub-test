@@ -1,0 +1,7 @@
+version: "1.0.0"
+released: 2026-03-31
+
+skills:
+  - name: test-skill-a
+
+dependencies: []
