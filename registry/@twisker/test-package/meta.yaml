@@ -1,0 +1,6 @@
+type: ip
+name: test-package
+description: "A test IP package with one skill dependency"
+author: "@twisker"
+license: MIT
+tags: [test, validation]
