@@ -1,0 +1,15 @@
+type: skill
+name: test-skill-a
+description: "A test skill for IpMan E2E validation"
+author: "@twisker"
+license: MIT
+homepage: https://github.com/twisker/test-skill-a
+tags: [test, validation]
+
+agents:
+  claude-code:
+    plugin: "test-skill-a@twisker-test-plugins"
+    marketplace: "https://github.com/twisker/twisker-test-plugins"
+  openclaw:
+    slug: "test-skill-a"
+    hub: "https://clawhub.com"
